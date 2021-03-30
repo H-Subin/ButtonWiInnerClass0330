@@ -19,18 +19,14 @@ public class MainActivity extends AppCompatActivity {
         mButton1 = findViewById(R.id.button1);
         mtextview1 = findViewById(R.id.textView1);
 
-        mButton1.setOnClickListener(new MyOnClickListner(this));
+        mButton1.setOnClickListener(new MyOnClickListner());
     }
 
 
     private class MyOnClickListner implements View.OnClickListener {
-        MainActivity mainActivity;
-        public MyOnClickListner(MainActivity mainActivity) {
-            this.mainActivity = mainActivity;
-        }
         @Override
         public void onClick(View v) {
-            mainActivity.mtextview1.setText("You clicked HJ's button!");
+            mtextview1.setText("You clicked SB's button!");
         }
     }
 }
