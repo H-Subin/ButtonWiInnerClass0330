@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         }
         @Override
         public void onClick(View v) {
-            mainActivity.mtextview1.setText("You clicked HJ's button!");
+            mainActivity.mtextview1.setText("You clicked SB's button!");
         }
     }
 }
